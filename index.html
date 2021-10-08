@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sally Go's Introduction</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant" rel="stylesheet">
+  </head>
+  <body>
+    <img src="https://nails.newsela.com/s3/prod-newsela-media/article_media/2018/01/elem-cat-paws-9d26c4dd.jpg?crop=0%2C116%2C1366%2C884&height=497&horizontal_focal_point=center&vertical_focal_point=center&width=885" class="left" alt="image">
+    <img src="https://i.ytimg.com/vi/wIY15UQDGaI/maxresdefault.jpg" class="right" alt="image">
+
+    <div>
+    <h1 id="max">Max: 3 years old calm boy</h1>
+    <h1 id="bella">Bella: 1 year old energetic boy</h1>
+    </div>
+    <div>
+    <button id="first">Left?</button>
+    <button id="second">Right?</button>
+  </div>
+  <script>
+       document.getElementById("first").addEventListener("click", clickMeleft);
+
+       function clickMeleft(){
+         alert("Thank you for choosing left cat!");
+
+         document.getElementById("max").style.color = "white";
+         document.getElementById("max").style.backgroundColor = "#C7524C";
+       }
+       document.getElementById("second").addEventListener("click", clickMe);
+       function clickMe(){
+         alert("Thank you for choosing right cat!");
+
+         document.getElementById("bella").style.color = "white";
+         document.getElementById("bella").style.backgroundColor = "#C7524C";
+       }
+   </script>
+
+  </body>
+
+</html>

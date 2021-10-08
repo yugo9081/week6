@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  font-family: 'Cormorant', serif;
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1013-p-0009a_1-krxfulwe.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=19eaa1b284bd38ab2d07b004d203fa80");
+}
+h1{
+ color: #C7524C;
+ font-family: 'Cormorant', serif;
+}
+.left{
+  left:20px;
+  margin-right: 20px;
+  height: auto;
+  width:45%
+}
+.right{
+  right:20px;
+  margin-left: 20px;
+  height: auto;
+  width:45%
+}
+
+#max{
+  margin-left: 20%;
+  font-size: 20px;
+  text-align: left;
+  font-family: 'Cormorant', serif;
+}
+#bella{
+  margin-right: 20%;
+  font-size: 20px;
+  text-align: right;
+  font-family: 'Cormorant', serif;
+}
+#first{
+  background-color: #C7524C;
+  text-align: center;
+  color: white;
+  padding: 20px 45px;
+  font-size: 24px;
+  border-radius: 13px;
+  border:solid;
+  border-color:#C7524C;
+  font-family: 'Cormorant', serif;
+  margin-top: 80px;
+  margin-right: 50px;
+}
+#second{
+  background-color: #C7524C;
+  text-align: center;
+  color: white;
+  padding: 20px 45px;
+  font-size: 24px;
+  border-radius: 13px;
+  border:solid;
+  border-color:#C7524C;
+  font-family: 'Cormorant', serif;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+#first:hover{
+  background-color: #FBAFAB;
+  border-color: #FA675F;
+}
+#first:active{
+  background-color: #7A322F;
+  border-color: #7A322F;
+
+}
+#second:hover{
+  background-color: #FBAFAB;
+  border-color: #FA675F;
+}
+#second:active{
+  background-color: #7A322F;
+  border-color: #7A322F;
+
+}
